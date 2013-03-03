@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E3C184C16D562EA009C574F /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3C184B16D562EA009C574F /* NextViewController.m */; };
+		8E6109051652C12600690631 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6109041652C12600690631 /* UIKit.framework */; };
+		8E6109071652C12600690631 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6109061652C12600690631 /* Foundation.framework */; };
+		8E6109091652C12600690631 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6109081652C12600690631 /* CoreGraphics.framework */; };
+		8E61090F1652C12600690631 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E61090D1652C12600690631 /* InfoPlist.strings */; };
+		8E6109111652C12600690631 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6109101652C12600690631 /* main.m */; };
+		8E6109151652C12600690631 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6109141652C12600690631 /* AppDelegate.m */; };
+		8E6109171652C12600690631 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6109161652C12600690631 /* Default.png */; };
+		8E6109191652C12600690631 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6109181652C12600690631 /* Default@2x.png */; };
+		8E61091B1652C12600690631 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E61091A1652C12600690631 /* Default-568h@2x.png */; };
+		8E61091E1652C12600690631 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E61091D1652C12600690631 /* ViewController.m */; };
+		8E6109211652C12600690631 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E61091F1652C12600690631 /* ViewController.xib */; };
+		8E61092D1652C5D000690631 /* UIColor+Customised_UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E61092C1652C5D000690631 /* UIColor+Customised_UIColor.m */; };
+		8E61BB9416D7FC4100CE0C98 /* GradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E61BB9316D7FC4100CE0C98 /* GradientButton.m */; };
+		8E61BB9616D7FC5E00CE0C98 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E61BB9516D7FC5E00CE0C98 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E3C184A16D562EA009C574F /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		8E3C184B16D562EA009C574F /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		8E6109001652C12600690631 /* TestNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6109041652C12600690631 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8E6109061652C12600690631 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E6109081652C12600690631 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8E61090C1652C12600690631 /* TestNavigationBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestNavigationBar-Info.plist"; sourceTree = "<group>"; };
+		8E61090E1652C12600690631 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E6109101652C12600690631 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E6109121652C12600690631 /* TestNavigationBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestNavigationBar-Prefix.pch"; sourceTree = "<group>"; };
+		8E6109131652C12600690631 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E6109141652C12600690631 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E6109161652C12600690631 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8E6109181652C12600690631 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8E61091A1652C12600690631 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8E61091C1652C12600690631 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E61091D1652C12600690631 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E6109201652C12600690631 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		8E61092B1652C5D000690631 /* UIColor+Customised_UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Customised_UIColor.h"; sourceTree = "<group>"; };
+		8E61092C1652C5D000690631 /* UIColor+Customised_UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Customised_UIColor.m"; sourceTree = "<group>"; };
+		8E61BB9216D7FC4100CE0C98 /* GradientButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientButton.h; sourceTree = "<group>"; };
+		8E61BB9316D7FC4100CE0C98 /* GradientButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientButton.m; sourceTree = "<group>"; };
+		8E61BB9516D7FC5E00CE0C98 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E6108FD1652C12600690631 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E61BB9616D7FC5E00CE0C98 /* QuartzCore.framework in Frameworks */,
+				8E6109051652C12600690631 /* UIKit.framework in Frameworks */,
+				8E6109071652C12600690631 /* Foundation.framework in Frameworks */,
+				8E6109091652C12600690631 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E6108F51652C12600690631 = {
+			isa = PBXGroup;
+			children = (
+				8E61090A1652C12600690631 /* TestNavigationBar */,
+				8E6109031652C12600690631 /* Frameworks */,
+				8E6109011652C12600690631 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E6109011652C12600690631 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E6109001652C12600690631 /* TestNavigationBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E6109031652C12600690631 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E61BB9516D7FC5E00CE0C98 /* QuartzCore.framework */,
+				8E6109041652C12600690631 /* UIKit.framework */,
+				8E6109061652C12600690631 /* Foundation.framework */,
+				8E6109081652C12600690631 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E61090A1652C12600690631 /* TestNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				8EDE6CA416E3ED3200CE9201 /* ApplicationDelegate */,
+				8EDE6CA316E3EC2000CE9201 /* ViewController */,
+				8EDE6CA516E3ED4900CE9201 /* GradientButtons */,
+				8EDE6CA216E3EB2400CE9201 /* CustomUIColor */,
+				8E61090B1652C12600690631 /* Supporting Files */,
+			);
+			path = TestNavigationBar;
+			sourceTree = "<group>";
+		};
+		8E61090B1652C12600690631 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E61090C1652C12600690631 /* TestNavigationBar-Info.plist */,
+				8E61090D1652C12600690631 /* InfoPlist.strings */,
+				8E6109101652C12600690631 /* main.m */,
+				8E6109121652C12600690631 /* TestNavigationBar-Prefix.pch */,
+				8E6109161652C12600690631 /* Default.png */,
+				8E6109181652C12600690631 /* Default@2x.png */,
+				8E61091A1652C12600690631 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EDE6CA216E3EB2400CE9201 /* CustomUIColor */ = {
+			isa = PBXGroup;
+			children = (
+				8E61092B1652C5D000690631 /* UIColor+Customised_UIColor.h */,
+				8E61092C1652C5D000690631 /* UIColor+Customised_UIColor.m */,
+			);
+			name = CustomUIColor;
+			sourceTree = "<group>";
+		};
+		8EDE6CA316E3EC2000CE9201 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8E61091C1652C12600690631 /* ViewController.h */,
+				8E61091D1652C12600690631 /* ViewController.m */,
+				8E61091F1652C12600690631 /* ViewController.xib */,
+				8E3C184A16D562EA009C574F /* NextViewController.h */,
+				8E3C184B16D562EA009C574F /* NextViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		8EDE6CA416E3ED3200CE9201 /* ApplicationDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8E6109131652C12600690631 /* AppDelegate.h */,
+				8E6109141652C12600690631 /* AppDelegate.m */,
+			);
+			name = ApplicationDelegate;
+			sourceTree = "<group>";
+		};
+		8EDE6CA516E3ED4900CE9201 /* GradientButtons */ = {
+			isa = PBXGroup;
+			children = (
+				8E61BB9216D7FC4100CE0C98 /* GradientButton.h */,
+				8E61BB9316D7FC4100CE0C98 /* GradientButton.m */,
+			);
+			name = GradientButtons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E6108FF1652C12600690631 /* TestNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E6109241652C12600690631 /* Build configuration list for PBXNativeTarget "TestNavigationBar" */;
+			buildPhases = (
+				8E6108FC1652C12600690631 /* Sources */,
+				8E6108FD1652C12600690631 /* Frameworks */,
+				8E6108FE1652C12600690631 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestNavigationBar;
+			productName = TestNavigationBar;
+			productReference = 8E6109001652C12600690631 /* TestNavigationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E6108F71652C12600690631 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Bharath G M";
+			};
+			buildConfigurationList = 8E6108FA1652C12600690631 /* Build configuration list for PBXProject "TestNavigationBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E6108F51652C12600690631;
+			productRefGroup = 8E6109011652C12600690631 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E6108FF1652C12600690631 /* TestNavigationBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E6108FE1652C12600690631 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E61090F1652C12600690631 /* InfoPlist.strings in Resources */,
+				8E6109171652C12600690631 /* Default.png in Resources */,
+				8E6109191652C12600690631 /* Default@2x.png in Resources */,
+				8E61091B1652C12600690631 /* Default-568h@2x.png in Resources */,
+				8E6109211652C12600690631 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E6108FC1652C12600690631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6109111652C12600690631 /* main.m in Sources */,
+				8E6109151652C12600690631 /* AppDelegate.m in Sources */,
+				8E61091E1652C12600690631 /* ViewController.m in Sources */,
+				8E61092D1652C5D000690631 /* UIColor+Customised_UIColor.m in Sources */,
+				8E3C184C16D562EA009C574F /* NextViewController.m in Sources */,
+				8E61BB9416D7FC4100CE0C98 /* GradientButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E61090D1652C12600690631 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E61090E1652C12600690631 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8E61091F1652C12600690631 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E6109201652C12600690631 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E6109221652C12600690631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lakshmikaantan G (BPUR33EZXX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lakshmikaantan G (BPUR33EZXX)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PROVISIONING_PROFILE = "73441290-F494-43F6-A86A-5B64EDDA7C77";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "73441290-F494-43F6-A86A-5B64EDDA7C77";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E6109231652C12600690631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lakshmikaantan G (BPUR33EZXX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lakshmikaantan G (BPUR33EZXX)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "73441290-F494-43F6-A86A-5B64EDDA7C77";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "73441290-F494-43F6-A86A-5B64EDDA7C77";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E6109251652C12600690631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lakshmikaantan G (BPUR33EZXX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lakshmikaantan G (BPUR33EZXX)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestNavigationBar/TestNavigationBar-Prefix.pch";
+				INFOPLIST_FILE = "TestNavigationBar/TestNavigationBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "73441290-F494-43F6-A86A-5B64EDDA7C77";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "73441290-F494-43F6-A86A-5B64EDDA7C77";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8E6109261652C12600690631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lakshmikaantan G (BPUR33EZXX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lakshmikaantan G (BPUR33EZXX)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestNavigationBar/TestNavigationBar-Prefix.pch";
+				INFOPLIST_FILE = "TestNavigationBar/TestNavigationBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "73441290-F494-43F6-A86A-5B64EDDA7C77";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "73441290-F494-43F6-A86A-5B64EDDA7C77";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E6108FA1652C12600690631 /* Build configuration list for PBXProject "TestNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E6109221652C12600690631 /* Debug */,
+				8E6109231652C12600690631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E6109241652C12600690631 /* Build configuration list for PBXNativeTarget "TestNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E6109251652C12600690631 /* Debug */,
+				8E6109261652C12600690631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E6108F71652C12600690631 /* Project object */;
+}
