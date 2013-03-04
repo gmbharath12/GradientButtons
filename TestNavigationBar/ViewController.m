@@ -64,24 +64,9 @@
 
 -(void)initButton
 {
-        void (^findStore)(void) =
-    ^{
-            button = [[GradientButton alloc] initWithFrame:CGRectMake(10, 80, 300, 44)];
-            [button set_MidGradientColor:[UIColor customisedGradientMid]];
-            [button set_MidAboveGradientColor:[UIColor customisedGradientAboveMid]];
-            [button set_TopGradientColor:[UIColor customisedGradientTop]];
-            [button set_BottomGradientColor:[UIColor customisedGradientBottom]];
-            [button setTitle:@"Find a Store" forState:UIControlStateNormal];
-            [button setTitleShadowColor:[UIColor whiteColor] forState:UIControlStateNormal];
-            button.titleLabel.shadowOffset = CGSizeMake(1, 1);
-            [button setTitleColor:[UIColor walgreensRedColor] forState:UIControlStateNormal];
-            button.titleLabel.font = [UIFont boldSystemFontOfSize:14];
-            [button setTag:FIND_STORE_BUTTON_TAG];
-            [button addTarget:self action:@selector(push:) forControlEvents:UIControlEventTouchUpInside];
-            [button setHighlighted:YES];
-            [self.view addSubview:button];
-    };
-    findStore(); //usage of blocks
+    
+    button = [[GradientButton alloc] initWithFrame:CGRectMake(10, 80, 300, 44) title:@"Find a Store" titleShadowColor:[UIColor whiteColor] titleColor:[UIColor walgreensRedColor] titleLabelOffset:CGSizeMake(1, 1) tag:FIND_STORE_BUTTON_TAG font:[UIFont boldSystemFontOfSize:14] bottomGradient:[UIColor customisedGradientBottom] midGradient:[UIColor customisedGradientMid] midAboveGradient:[UIColor customisedGradientAboveMid] topGradient:[UIColor customisedGradientTop]];
+    [self.view addSubview:button];
     
     getDirections = [[GradientButton alloc] initWithFrame:CGRectMake(10, 140, 140, 44)];
     [getDirections set_MidGradientColor:[UIColor customisedGradientMid]];

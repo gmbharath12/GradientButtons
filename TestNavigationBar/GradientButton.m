@@ -17,6 +17,26 @@
 @synthesize _MidGradientColor;
 
 
+- (id)initWithFrame:(CGRect)frame title:(NSString*)title titleShadowColor:(UIColor*)titleShadowColor titleColor:(UIColor*)titleColor titleLabelOffset:(CGSize)offset tag:(NSUInteger)tag font:(UIFont*)font bottomGradient:(UIColor*)bottomGradient midGradient:(UIColor*)midGradient midAboveGradient:(UIColor*)midAboveGradient topGradient:(UIColor*)topGradient
+{
+    self = [super init];
+    if (self)
+    {
+        [self setFrame:frame];
+        [self setTitle:title forState:UIControlStateNormal];
+        [self setTitleShadowColor:titleShadowColor forState:UIControlStateNormal];
+        [self setTitleColor:titleColor forState:UIControlStateNormal];
+        [[self titleLabel] setShadowOffset:offset];
+        [self setTag:tag];
+        [[self titleLabel] setFont:font];
+        [self set_BottomGradientColor:bottomGradient];
+        [self set_MidGradientColor:midGradient];
+        [self set_MidAboveGradientColor:midAboveGradient];
+        [self set_TopGradientColor:topGradient];
+    }
+    return self;
+}
+
 - (void)drawRect:(CGRect)rect
 {
     if (!self.m_cGradientLayer)

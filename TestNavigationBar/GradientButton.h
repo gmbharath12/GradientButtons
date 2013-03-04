@@ -24,4 +24,5 @@
 - (void)setLowColor:(UIColor*)color;
 - (void)setMidGradientColor:(UIColor*)color;
 - (void)setMidAboveGradientColor:(UIColor*)color;
+- (id)initWithFrame:(CGRect)frame title:(NSString*)title titleShadowColor:(UIColor*)titleShadowColor titleColor:(UIColor*)titleColor titleLabelOffset:(CGSize)offset tag:(NSUInteger)tag font:(UIFont*)font bottomGradient:(UIColor*)bottomGradient midGradient:(UIColor*)midGradient midAboveGradient:(UIColor*)midAboveGradient topGradient:(UIColor*)topGradient;
 @end
