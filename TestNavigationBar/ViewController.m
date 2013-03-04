@@ -13,6 +13,7 @@
 #define FIND_STORE_BUTTON_TAG  0
 #define DIRECTIONS_TAG 1
 #define MAP_LOCATION_TAG 2
+#define FIND_STORE @"Find a Store"
 #define DIRECTION_TITLE @"Get Directions"
 #define MAP_TITLE @"Map Location"
 
@@ -65,36 +66,24 @@
 -(void)initButton
 {
     
-    button = [[GradientButton alloc] initWithFrame:CGRectMake(10, 80, 300, 44) title:@"Find a Store" titleShadowColor:[UIColor whiteColor] titleColor:[UIColor walgreensRedColor] titleLabelOffset:CGSizeMake(1, 1) tag:FIND_STORE_BUTTON_TAG font:[UIFont boldSystemFontOfSize:14] bottomGradient:[UIColor customisedGradientBottom] midGradient:[UIColor customisedGradientMid] midAboveGradient:[UIColor customisedGradientAboveMid] topGradient:[UIColor customisedGradientTop]];
+    button = [[GradientButton alloc] initWithFrame:CGRectMake(10, 80, 300, 44) title:FIND_STORE titleShadowColor:[UIColor whiteColor] titleColor:[UIColor walgreensRedColor] titleLabelOffset:CGSizeMake(1, 1) tag:FIND_STORE_BUTTON_TAG font:[UIFont boldSystemFontOfSize:14] bottomGradient:[UIColor customisedGradientBottom] midGradient:[UIColor customisedGradientMid] midAboveGradient:[UIColor customisedGradientAboveMid] topGradient:[UIColor customisedGradientTop]];
+    
+    [button addTarget:self action:@selector(push:) forControlEvents:UIControlEventTouchUpInside];
+    
     [self.view addSubview:button];
     
-    getDirections = [[GradientButton alloc] initWithFrame:CGRectMake(10, 140, 140, 44)];
-    [getDirections set_MidGradientColor:[UIColor customisedGradientMid]];
-    [getDirections set_MidAboveGradientColor:[UIColor customisedGradientAboveMid]];
-    [getDirections set_TopGradientColor:[UIColor customisedGradientTop]];
-    [getDirections set_BottomGradientColor:[UIColor customisedGradientBottom]];
-    [getDirections setTitle:@"Get Directions" forState:UIControlStateNormal];
-    [getDirections setTitleColor:[UIColor walgreensRedColor] forState:UIControlStateNormal];
-    [getDirections setTitleShadowColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    getDirections.titleLabel.shadowOffset = CGSizeMake(1, 1);
-    getDirections.titleLabel.font = [UIFont boldSystemFontOfSize:14];
-    [getDirections setTag:DIRECTIONS_TAG];
+    
+    getDirections = [[GradientButton alloc] initWithFrame:CGRectMake(10, 140, 140, 44) title:DIRECTION_TITLE titleShadowColor:[UIColor whiteColor] titleColor:[UIColor walgreensRedColor] titleLabelOffset:CGSizeMake(1, 1) tag:DIRECTIONS_TAG font:[UIFont boldSystemFontOfSize:14] bottomGradient:[UIColor customisedGradientBottom] midGradient:[UIColor customisedGradientMid] midAboveGradient:[UIColor customisedGradientAboveMid] topGradient:[UIColor customisedGradientTop]];
+    
     [getDirections addTarget:self action:@selector(push:) forControlEvents:UIControlEventTouchUpInside];
+    
     [self.view addSubview:getDirections];
     
-
-    mapLocation = [[GradientButton alloc] initWithFrame:CGRectMake(160, 140, 140, 44)];
-    [mapLocation set_MidGradientColor:[UIColor customisedGradientMid]];
-    [mapLocation set_MidAboveGradientColor:[UIColor customisedGradientAboveMid]];
-    [mapLocation set_TopGradientColor:[UIColor customisedGradientTop]];
-    [mapLocation set_BottomGradientColor:[UIColor customisedGradientBottom]];
-    [mapLocation setTitle:@"Map Location" forState:UIControlStateNormal];
-    [mapLocation setTitleColor:[UIColor walgreensRedColor] forState:UIControlStateNormal];
-    [mapLocation setTitleShadowColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    [mapLocation setTag:MAP_LOCATION_TAG];
-    mapLocation.titleLabel.shadowOffset = CGSizeMake(1, 1);
-    mapLocation.titleLabel.font = [UIFont boldSystemFontOfSize:14];
+    
+    mapLocation = [[GradientButton alloc] initWithFrame:CGRectMake(160, 140, 140, 44) title:MAP_TITLE titleShadowColor:[UIColor whiteColor] titleColor:[UIColor walgreensRedColor] titleLabelOffset:CGSizeMake(1, 1) tag:MAP_LOCATION_TAG font:[UIFont boldSystemFontOfSize:14] bottomGradient:[UIColor customisedGradientBottom] midGradient:[UIColor customisedGradientMid] midAboveGradient:[UIColor customisedGradientAboveMid] topGradient:[UIColor customisedGradientTop]];
+   
     [mapLocation addTarget:self action:@selector(push:) forControlEvents:UIControlEventTouchUpInside];
+    
     [self.view addSubview:mapLocation];
 
 }

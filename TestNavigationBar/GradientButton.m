@@ -22,6 +22,7 @@
     self = [super init];
     if (self)
     {
+        
         [self setFrame:frame];
         [self setTitle:title forState:UIControlStateNormal];
         [self setTitleShadowColor:titleShadowColor forState:UIControlStateNormal];
@@ -33,6 +34,7 @@
         [self set_MidGradientColor:midGradient];
         [self set_MidAboveGradientColor:midAboveGradient];
         [self set_TopGradientColor:topGradient];
+        
     }
     return self;
 }
