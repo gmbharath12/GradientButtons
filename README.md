@@ -2,6 +2,6 @@ GradientButtons
 ===============
 
 Gradient Buttons
-This project demonstrates how color gradients are applied to a Button using CAGradientLayer
-Problem Statement : Designers in our office came up with a question if we can apply Gradients to a button and thus having the same effect as an image. We could ofcourse do it by programmatocally by applying the same effect as designers do while creating butons ( using Photoshop )
+This project demonstrates on how color gradients can be applied to a UIButton using CAGradientLayer and thus producing same effect as an image. 
+Advantages : Performance of the app increases. Images are created though code
 Gradient colors,Background color, corner radius, shadow color, shadow radius, shadow offset, shadow opacity, opacity, border color, border width are some of the effects that can be applied. "GradientButton" (.h)(.m) helps in acheiving the same.
