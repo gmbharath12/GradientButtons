@@ -29,21 +29,13 @@
 	// Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationController.navigationBar.hidden = NO;
-   
     NSDictionary *attributes = [NSDictionary dictionaryWithObjectsAndKeys:
                                 [UIColor walgreensRedColor],
                                 UITextAttributeTextColor,
                                 nil];
-    
     [[UIBarButtonItem appearance] setTitleTextAttributes: attributes
                                                 forState: UIControlStateNormal];
-
-    [[UIBarButtonItem appearance] setTintColor:[UIColor whiteColor
-                                                ]];
-
-    
-//   [[[self navigationItem] backBarButtonItem] setTitle:@"Back"];
-
+    [[UIBarButtonItem appearance] setTintColor:[UIColor whiteColor]];
 }
 
 - (void)didReceiveMemoryWarning
